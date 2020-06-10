@@ -4,17 +4,22 @@
 	<title>Tournament Center | Home</title>
     <link type="text/css" rel="stylesheet" href="blog.css">
 	<script src="https://kit.fontawesome.com/d3536e3bdb.js" crossorigin="anonymous"></script>
+	<script src="ProjectJavascript.js"></script>
 </head>
-	<body>
+	<body id = "bodyID">
 	
 		<header>
 			<a href = "index.html">
-			<img src="tournamentCenter.png" alt="Tournament Center" class = "resize"/>
+			<img id="backImage" src="tournamentCenter.png" alt="Tournament Center" class = "resize"/>
 			</a>
 			<ul>
-			 <li class = "inline">Font Resizer</a></li>
-			 <li class = "inline">Syle Switcher</li>
-			 <li class = "inline"><a href="login.html">Admin Login</a></li>
+			 <li onclick= "largerText()" class = "inline">Font Size + </li>
+			 <li onclick= "smallerText()" class = "inline">Font Size - </li>
+			 <li onclick= "changeBlueAlt()" class = "inline">Blue Background</li>
+			 <li onclick= "changeRedAlt()" class = "inline">Red Background</li>
+			 <li onclick= "changeGreenAlt()" class = "inline">Green Background</li>
+			 <li onclick= "changeOriginalAlt()" class = "inline">White background</li>
+			 <li class = "inline"><a href="admin/login.html">Admin Login</a></li>
 			</ul>
 		</header>
 		<h1 class = "center"> Post list </h1>
