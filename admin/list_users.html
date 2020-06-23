@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Tournament Center | Home</title>
+    <link type="text/css" rel="stylesheet" href="blog.css">
+	<script src="https://kit.fontawesome.com/d3536e3bdb.js" crossorigin="anonymous"></script>
+	<script src="ProjectJavascript.js"></script>
+</head>
+	<body id = "bodyID">
+	
+		<header>
+			<a href = "index.html">
+			<img id="backImage" src="tournamentCenter.png" alt="Tournament Center" class = "resize"/>
+			</a>
+			<ul>
+			 <li onclick= "largerText()" class = "inline">Font Size + </li>
+			 <li onclick= "smallerText()" class = "inline">Font Size - </li>
+			 <li onclick= "changeBlueAlt()" class = "inline">Blue Background</li>
+			 <li onclick= "changeRedAlt()" class = "inline">Red Background</li>
+			 <li onclick= "changeGreenAlt()" class = "inline">Green Background</li>
+			 <li onclick= "changeOriginalAlt()" class = "inline">White background</li>
+			 <li class = "inline"><a href="admin/login.html">Admin Login</a></li>
+			</ul>
+		</header>
+		<h1 class = "center"> User List </h1>
+		<main>
+		<div class = textWidth>
+			<table class = "center">
+			  <tr>
+				<th>Username</th>
+				<th colspan="3">Operations</th> 
+			  </tr>
+			  <tr>
+				<td><i class="fas fa-users">User</i></td>
+				<td><i class="fas fa-edit"><a href="update_user.html">Edit</a></i></td>
+				<td><i class="fas fa-trash-alt">Delete</i></td>
+				<td><i class="fas fa-toggle-on">Enabe / Disable</i></td>
+			  </tr>
+			</table>
+		</div>
+		</main>
+		        <footer class = "center">
+            <br/>
+            <div>Tournament Center INC.   Copywrite 2020</div>
+        </footer>
+	</body>
+	</html>
